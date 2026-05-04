@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: topik-master-rag
+Version: 0.1.0
+Summary: Level-aware RAG system for TOPIK exam preparation
+Author: Nathan Kermani
+Author-email: nathan.kermani@example.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: langchain>=0.1.0
+Requires-Dist: chromadb>=0.4.0
+Requires-Dist: sentence-transformers>=2.2.0
+Requires-Dist: ollama>=0.1.0
+Requires-Dist: PyMuPDF>=1.23.0
+Requires-Dist: ragas>=0.1.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: beautifulsoup4>=4.12.0
+Requires-Dist: bm25s>=0.1.0
+Requires-Dist: tqdm>=4.66.0
+Requires-Dist: pyyaml>=6.0.0
+Provides-Extra: gpu
+Requires-Dist: torch>=2.0.0; extra == "gpu"
+Provides-Extra: eval
+Requires-Dist: ragas[ragas-metrics]>=0.1.0; extra == "eval"
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Level-aware Neural Retrieval system for TOPIK exam preparation. Features Hybrid Search (BM25 + Polyglot-Ko) and Rank-based difficulty filtering.

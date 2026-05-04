@@ -1,0 +1,5 @@
+[console_scripts]
+topik-download = main.download_pdfs:main
+topik-eval = main.eval:main
+topik-ingest = main.ingest:main
+topik-query = main.query:main

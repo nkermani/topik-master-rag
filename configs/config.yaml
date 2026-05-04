@@ -1,0 +1,31 @@
+# TOPIK Master RAG Configuration
+
+# Data paths
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  pdf_dir: "data/raw/pdfs"
+  vocab_url: "https://www.topikguide.com/topik-vocabulary-lists/"
+
+# Embedding models
+embeddings:
+  model_name: "polyglot-ko-1.3b-embeddings"
+  ollama_model: "llama3-korean:8b"
+  device: "cuda"  # or "cpu"
+
+# Vector store
+chroma:
+  persist_directory: "data/processed/chroma_db"
+  collection_name: "topik_docs"
+
+# Retrieval
+retrieval:
+  top_k: 10
+  rerank_top_k: 5
+  bm25_weight: 0.3
+  vector_weight: 0.7
+
+# Evaluation
+evaluation:
+  metrics: ["faithfulness", "context_precision"]
+  ragas_version: "0.1.0"
