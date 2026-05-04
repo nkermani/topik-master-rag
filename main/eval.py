@@ -1,3 +1,5 @@
+# main/eval.py
+
 """Main entry point for RAG evaluation."""
 import argparse
 from src.evaluation.metrics import RAGEvaluator

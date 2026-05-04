@@ -1,3 +1,5 @@
+# src/retrieval/reranker.py
+
 """BGE-Reranker for multilingual Korean content."""
 from sentence_transformers import CrossEncoder
 from src.utils.logger import Logger

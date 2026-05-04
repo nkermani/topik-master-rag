@@ -1,3 +1,5 @@
+# src/retrieval/bm25.py
+
 """BM25 keyword-based retrieval for Korean particles."""
 from bm25s import BM25
 import numpy as np

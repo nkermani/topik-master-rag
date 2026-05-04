@@ -1,3 +1,5 @@
+# src/retrieval/query.py
+
 """Main query pipeline with hybrid retrieval."""
 from src.retrieval.vector_store import VectorStore
 from src.retrieval.bm25 import BM25Retriever

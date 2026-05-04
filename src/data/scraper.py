@@ -1,3 +1,5 @@
+# src/data/scraper.py
+
 """Web scraper for TOPIK vocabulary lists."""
 import requests
 from bs4 import BeautifulSoup

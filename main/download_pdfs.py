@@ -1,3 +1,5 @@
+# main/download_pdfs.py
+
 """CLI to download TOPIK past exam PDFs."""
 import argparse
 from src.data.pdf_downloader import PDFDownloader

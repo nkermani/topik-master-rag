@@ -1,3 +1,5 @@
+# src/retrieval/embeddings.py
+
 """Embedding models for Korean text."""
 from sentence_transformers import SentenceTransformer
 from src.utils.config import Config

@@ -1,3 +1,5 @@
+# main/query.py
+
 """Main entry point for querying the RAG system."""
 import argparse
 from src.retrieval.query import QueryPipeline

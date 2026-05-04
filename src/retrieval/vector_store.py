@@ -1,3 +1,5 @@
+# src/retrieval/vector_store.py
+
 """ChromaDB vector store management."""
 import chromadb
 from chromadb.config import Settings

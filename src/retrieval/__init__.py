@@ -1,3 +1,5 @@
+# src/retrieval/__init__.py
+
 """Retrieval modules for hybrid search."""
 from src.retrieval.query import QueryPipeline
 from src.retrieval.vector_store import VectorStore

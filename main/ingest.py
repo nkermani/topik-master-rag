@@ -1,3 +1,5 @@
+# main/ingest.py
+
 """Main entry point for data ingestion."""
 import argparse
 from src.data.ingest import DataIngestor

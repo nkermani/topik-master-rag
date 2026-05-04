@@ -1,3 +1,5 @@
+# src/data/pdf_parser.py
+
 """PDF parser for TOPIK past exam papers."""
 import fitz  # PyMuPDF
 from pathlib import Path

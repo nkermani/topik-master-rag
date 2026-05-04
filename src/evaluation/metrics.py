@@ -1,3 +1,5 @@
+# src/evaluation/metrics.py
+
 """Ragas metrics for evaluating RAG performance."""
 from ragas import evaluate
 from ragas.metrics import faithfulness, context_precision

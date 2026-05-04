@@ -1,3 +1,5 @@
+# src/__init__.py
+
 """TOPIK Master RAG Package."""
 from src.data.ingest import DataIngestor
 from src.retrieval.query import QueryPipeline

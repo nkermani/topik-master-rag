@@ -1,3 +1,5 @@
+# src/utils/logger.py
+
 """Logging utility for TOPIK Master RAG."""
 import logging
 from pathlib import Path

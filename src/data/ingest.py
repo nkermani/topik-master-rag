@@ -1,3 +1,5 @@
+# src/data/ingest.py
+
 """Main ingestion pipeline for TOPIK data."""
 from src.data.scraper import VocabScraper
 from src.data.pdf_parser import PDFParser

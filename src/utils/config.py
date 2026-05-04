@@ -1,3 +1,5 @@
+# src/utils/config.py
+
 """Configuration loader for TOPIK Master RAG."""
 import yaml
 from pathlib import Path

@@ -1,3 +1,5 @@
+# src/data/__init__.py
+
 """Data processing modules."""
 from src.data.ingest import DataIngestor
 from src.data.scraper import VocabScraper
