@@ -1,0 +1,4 @@
+[dependency-groups]
+dev = [
+    "ty>=0.0.34",
+]
